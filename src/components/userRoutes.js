@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const API = "https://crud-backend-lq0h.onrender.com";
+const API = "";
 
 export const getUsers = async () => {
     const response = await axios.get(`${API}/allUsers`);
